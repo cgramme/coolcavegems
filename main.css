@@ -1,0 +1,337 @@
+
+
+body, h1, ul,ol,li,p{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 62.5%;
+}
+html{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+	height: 100%;
+	width: 100%;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body{
+	background: url("images/caveBackground.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    bottom: 0;
+}
+.clear{
+	clear: both;
+}
+.header{
+	margin-top: -1px;
+	background: url("images/darkrock.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-radius: 0 0 30px 30px;
+	box-shadow: 0px 0px 7px 0px #0000ff, 0px 0px 50px 0px #66ffcc;
+	border: 1px solid #ffffff;
+	height: 120px;
+}
+.header-logo{
+	background: url("images/coolcavegems.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	top:-23px;
+	height: 100px;
+	margin: 20px auto 0 auto;
+}
+.page-content{
+	clear: both;
+	width: 700px;
+	margin:0 auto;
+}
+.game-content{
+	background: #ffffff;
+	box-shadow: 0px 0px 7px 0px #0000ff, 0px 0px 50px 0px #66ffcc;
+	border-radius: 50px;
+	margin: 0 auto;
+	width: 530px;
+	background-color: hsla(0, 0%, 0%, 0.3);
+	float: right;
+	border: 1px solid #ffffff;
+}
+.gold-silver-bronze{
+	margin-top: 10px;
+}
+.gold-silver-bronze li{
+	text-shadow: 0 0 5px #ffffff;
+	list-style-type: none;
+	font-size: 4em;
+	font-style: bold;
+	color: #000000;
+	text-align: center;
+
+}
+.side-gems{
+	float: left;
+	width: 150px;
+	position: relative;
+	height: 530px;
+	background: url("images/darkrock.jpg");
+	border: 1px solid #ffffff;
+	box-shadow: 0px 0px 5px 0px #0000ff, 0px 0px 20px 0px #66ffcc;
+	border-radius: 50px;
+}
+.side-gems-li{
+	height:37px;
+	width: 37px;
+	background-size: 100%;
+	color: transparent;
+	margin: 0 auto;
+}
+.side-gems-ul{
+	height: 100%;
+	width: 100%;
+	margin:0 auto;
+	padding:5px 0;
+	width:80px;
+	border-radius: 40px;
+	height: 330px;
+	clear: both;
+}
+.tries{
+	text-align: center;
+	width:90px;
+	font-size: 2.5em;
+	font-style: bold;
+	margin-left: 20px;
+	margin-top: 3px;
+	color: #ffffff;
+	float: left;
+	background-color: #000000;
+	border-radius: 25px;
+	padding: 5px 10px 5px 10px;
+	text-shadow: 0 0 10px #0000ff,0 0 15px #66ffcc,0 0 30px #000000;
+	box-shadow: 0px 0px 2px 0px #0000ff, 0px 0px 10px 0px #66ffcc;
+}
+.time{
+	text-align:center;
+	width:90px;
+	float: right;
+	font-size: 2.5em;
+	font-style: bold;
+	margin-left: 20px;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	color: #ffffff;
+	clear: both;
+	float: left;
+	background-color: #000000;
+	border-radius: 25px;
+	padding: 5px 10px 5px 10px;
+	text-shadow: 0 0 10px #0000ff,0 0 15px #66ffcc,0 0 30px #000000;
+	box-shadow: 0px 0px 2px 0px #0000ff, 0px 0px 10px 0px #66ffcc;
+}
+.game-list{
+	padding: 9%;
+}
+.game-list li{
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    color: transparent;
+	float: none;
+	border-radius: 30%;
+	margin:1px;
+	display: inline-block;
+	border:1px solid transparent;
+}
+.game-list li:hover{
+	border:1px solid transparent;
+}
+.message{
+	z-index: 0;
+	background: url("images/darkrock.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 30px 10px #000000;
+	width:300px;
+	border:2px solid white;
+	border-radius: 20px;
+	background-color: #ffffff;
+	margin:100px auto;
+	font-weight: bold;
+	display: none;
+	color: #000000;
+	clear:both;
+}
+
+.message p{
+	box-shadow: 0 0 20px 10px #000000;
+	margin:10px auto;
+	text-align: center;
+	border-radius: 30px;
+	background-color: #ffffff;
+	clear:both;
+	font-size: 2em;
+	font-weight: normal;
+	padding:10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.message .but{
+	padding-top: 10px;
+	font-size: 2em;
+	color:white;
+	text-align: center;
+	font-weight: bold;
+	height:35px;
+	width:150px;
+	background-color: #000000;
+	text-shadow: 0 0 10px #0000ff,0 0 15px #66ffcc,0 0 30px #000000;
+	box-shadow: 0px 0px 2px 0px #0000ff, 0px 0px 10px 0px #66ffcc;
+	border-radius: 20px;
+	clear:both;
+	margin:20px auto;
+}
+.message .but:hover{
+	box-shadow: 0px 0px 7px 0px #0000ff, 0px 0px 100px 0px #66ffcc;
+	cursor: pointer;
+}
+
+
+button{
+	text-shadow: 2px 2px 10px #000000;
+	background-color: #007a5c;
+	font-size: 2em;
+	font-style: bold;
+	color: #ffffff;
+	border-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0px 0px 25px 0px #ffffff;
+	border: 1px solid #ffffff;
+	height:50px; 
+    width:140px; 
+    margin: -25px -70px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+button:hover{
+	box-shadow: 0px 0px 7px 0px #0000ff, 0px 0px 100px 0px #66ffcc;
+	border: 1px solid #ffffff;
+	background-color: #006149;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 550px){
+
+	.message{
+		margin:20px auto;
+		
+	}
+	.message p{
+		font-size: 1.5em;
+	}
+	.message .but{
+		font-size: 1.5em;
+		height:30px;
+		width:120px;
+	}
+	.game-content{
+	margin: 0 auto;
+	width: 98%;
+	border: 2px solid #000000;
+	float:none;
+	}
+}
+@media screen and (max-width: 730px){
+	.side-gems{
+		margin:10px 0 0 0;
+		width: 100%;
+		height: 140px;
+		border-radius: 10px 10px 0 0;
+	}
+	.side-gems-ul{
+		height: 38px;
+		width: 100%;
+		float: none;
+	    clear: both;
+	    margin:0;
+	}
+	.side-gems-li{
+	display: inline-block;
+	height:33px;
+	width: 33px;
+	margin: 4px 1px 1px 5px;
+	background-size: 100%;
+	color: transparent;
+	}
+	.gold-silver-bronze li{
+		margin:0 2px 0 2px;
+		display: inline-block;
+		margin-top: 5px;
+	}
+	.gsb-align{
+		text-align: center;
+	}
+	.gems-align{
+		text-align: center;
+	}
+	.gold-silver-bronze{
+		margin:0 auto;
+	}
+	.time{
+		border:1px solid #ffffff;
+	    float:right;
+	    clear: none;
+	    margin: 5px 10px 8px 0;
+	}
+	.tries{
+	    border:1px solid #ffffff;
+	    margin: 5px 0 8px 10px;
+	}
+	.page-content{
+	width:100%;
+	}
+	.game-content{
+	margin: 0 auto;
+	border: 2px solid #ffffff;
+	float:none;
+	}
+	.header{
+	border-radius: 0 0 10px 10px;
+	}
+	.header-logo{
+	width: 98%;
+	}
+    .side-bar{
+	float: none;
+	width: 95%;
+	height: 100px;
+	margin:5px auto;
+	}
+	.game-list li{
+	margin: 0.5px;
+	}
+}
+@media (webkit-min-device-pixel-ratio: 1.5), (max-width: 192dpi){
+	.message{
+		margin:5px auto;
+
+	}
+	
+	.side-gems-li{
+	display: inline-block;
+	height:30px;
+	width: 30px;
+	margin: 10px 2px 2px 5px;
+	background-size: 100%;
+	color: transparent;
+	}
+	
+}
+
